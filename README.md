@@ -1,40 +1,26 @@
-# Next.js & NextUI Template
+# Next.js Form with AWS Integration
 
-This is a template for creating applications using Next.js 13 (app directory) and NextUI (v2).
+This project is a Next.js 14 application that implements a feature-rich form with various functionalities such as server actions, multipart upload, input validations, AWS S3 and DynamoDB integration, MIME validation, and utilizes Tailwind CSS and Redux for a seamless user experience.
 
-## Technologies Used
+You can find the full tutorial and other content to my channel:
+and the video on the link:
 
-- [Next.js 13](https://nextjs.org/docs/getting-started)
-- [NextUI v2](https://nextui.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+## Features
 
-## How to Use
+- **Built with Next.js:** The project is developed using Next.js, a React framework that enables server-side rendering and other powerful features.
 
+- **Server Actions:** Leverage the potential of server actions to enhance the performance and responsiveness of the form.
 
-### Use the template with create-next-app
+- **Multipart Upload:** Support for multipart file uploads, allowing users to upload large files seamlessly.
 
-To create a new project based on this template using `create-next-app`, run the following command:
+- **Input Validations:** Ensure data integrity and user experience by implementing input validations on the form fields.
 
-```bash
-npx create-next-app -e https://github.com/nextui-org/next-app-template
-```
+- **AWS S3 Integration:** Files uploaded through the form are stored in AWS S3, a scalable and secure object storage service.
 
-### Install dependencies
+- **AWS DynamoDB Integration:** Store form data in AWS DynamoDB for efficient and scalable data management.
 
-```bash
-npm install
-```
+- **MIME Validation:** Validate the MIME types of uploaded files to ensure that only allowed file types are accepted.
 
-### Run the development server
+- **Tailwind CSS:** Utilize Tailwind CSS for easy and customizable styling, ensuring a visually appealing and responsive design.
 
-```bash
-npm run dev
-```
-
-## License
-
-Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
+- **Redux Integration:** Manage state efficiently with Redux, providing a predictable state container for the application.
